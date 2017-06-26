@@ -1,0 +1,40 @@
+sounds:
+    enabled: true
+    frequency: 5
+
+bats:
+    enabled: true
+    bat-invulnerable-time: 3
+    bat-duration: 3
+
+trick-or-treat:
+    enabled: true
+    mob-invulnerable-time: 7
+    mob-duration: 7
+    witch-chance: 10
+    treats:
+        smallmoney:
+            chance: 3
+            command: /money give %player% 100
+            name: 100 moneys
+        smalldiamonds:
+            chance: 2
+            command: /give %player% diamond 3
+            name: 3 diamonds
+    tricks:
+        kick:
+            chance: 3
+            command: /kick %player%
+        fire:
+            chance: 2
+            command: /burn %player%
+    doors:
+        default:
+            world: world
+            x: 0
+            y: 60
+            z: 0
+            spawn:
+                x: 0
+                y: 60
+                z: 0

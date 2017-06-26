@@ -1,0 +1,21 @@
+name: sthalloween
+version: 1.0.4-SNAPSHOT
+description: Trick or treating, pumpkin mobs, and more!
+author: tmad40blue
+website: http://tmad40.blue/
+
+main: blue.tmad40.sthalloween.Main
+
+commands:
+    sth:
+        description: Base command
+        aliases: [sthalloween]
+        
+permissions:
+    stHalloween.*:
+        description: Gives access to all plugin functions
+        children:
+            stHalloween.reload: true
+    stHalloween.reload:
+        description: Gives access to /sth reload
+        default: op

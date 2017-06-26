@@ -1,0 +1,22 @@
+# The prefix used for plugin messages
+prefix:
+    server: "&8[&3stHalloween&8]: &7"
+
+# Various messages used by the plugin
+messages:
+    no-perms: "&cYou don't have permission to do that!"
+    no-console: "&cYou must be a player to do that!"
+    no-args: "&cNo arguments given! Valid arguments are: %args%"
+    invalid-arg: "&c%arg% is not a valid argument! Valid arguments are: %args%"
+
+trick-or-treat:
+    treats:
+    - "&7Whoa sweet costume!"
+    - "&7Have a treat!"
+    - "&7I don't have any candy, will this do?"
+    tricks:
+    - "Get off of my lawn!"
+    - "Stop knocking on my door!"
+    - "Get outta here kid!"
+    trick: "&cYou've been tricked!"
+    treat: "&aYou've received &3%prize%"
